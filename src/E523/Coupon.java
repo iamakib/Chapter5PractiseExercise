@@ -7,7 +7,7 @@ public class Coupon {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the amount spent: $");
+        System.out.print("Please enter the cost of your groceries $");
         double amountSpent = scanner.nextDouble();
         double couponPercentage = 0;
 
@@ -25,7 +25,7 @@ public class Coupon {
 
         double couponAmount = amountSpent * couponPercentage;
 
-        System.out.println("Coupon Amount: $" + couponAmount);
+        System.out.println("You win a discount coupon of $" + couponAmount);
 
     }
 }
